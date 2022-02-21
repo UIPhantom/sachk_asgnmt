@@ -1,5 +1,6 @@
 import './App.css';
 import Banner from './Componenets/Banner';
+import InfoPage from './Componenets/InfoPage';
 import Navbar from './Componenets/Navbar';
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
     <div className="App">
       <Banner />
       <Navbar />
-      
+      <InfoPage />
     </div>
   );
 }

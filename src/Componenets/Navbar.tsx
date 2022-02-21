@@ -3,7 +3,7 @@ import SectionGroup from "./SectionGroup";
 
 const Navbar: React.FC = () => {
     return (
-        <Box className="navbar" >
+        <Box className="navbar">
             <div id="ellipse">N</div>
             <Heading id="name">Name</Heading>
             <svg id="slide-left" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
