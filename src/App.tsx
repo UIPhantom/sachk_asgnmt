@@ -6,8 +6,8 @@ import Navbar from './Componenets/Navbar';
 function App() {
   return (
     <div className="App">
-      {/* <Banner />
-      <Navbar /> */}
+      <Banner />
+      <Navbar />
       <InfoPage />
     </div>
   );
