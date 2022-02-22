@@ -447,9 +447,9 @@ h1 {
 
 #img {
   position: absolute;
-  left: 79.88%;
+  left: 80.88%;
   right: 3.73%;
-  top: 12.13%;
+  top: 6.5%;
   bottom: 0%;
 }
 
@@ -463,4 +463,294 @@ h1 {
   /* white */
   border-radius: 1rem;
   background: #ffffff;
+}
+
+.rewardMain {
+  position: absolute;
+  height: 185.68734741210938px;
+  width: 700.76318359375px;
+  left: 23.129608154296875px;
+  top: 202px;
+  border-radius: 24px;
+
+  /* BG - 2 */
+
+  background: #191b20;
+  border-radius: 24px;
+}
+
+.rh {
+  position: absolute;
+  left: 0%;
+  right: 75.82%;
+  top: calc(50% - 500px / 2 + 186.65px);
+
+  /* headline/h6/medium 18 */
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+
+  /* white */
+
+  color: #ffffff;
+}
+
+#reward {
+  position: absolute;
+  height: 48px;
+  left: 0%;
+  right: 68.5%;
+  top: calc(50% - 512px / 2 + 229.65px);
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 48px;
+  /* identical to box height, or 171% */
+
+  letter-spacing: -1px;
+
+  /* white */
+
+  color: #ffffff;
+}
+
+.wrapper {
+  position: absolute;
+  width: 280px;
+  height: 30.08px;
+  left: 24px;
+  top: 130.15px;
+
+  /* For Center */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 17px;
+  /* identical to box height, or 143% */
+
+  /* white */
+
+  color: #ffffff;
+}
+
+#linkbtn {
+  position: absolute;
+  left: 504.87px;
+  top: 75.86px;
+  background: #3772ff;
+}
+
+#link {
+  position: absolute;
+  left: 28.92%;
+  right: 13.55%;
+  top: 7.4px;
+  bottom: 0%;
+
+  /* button/large/bold 14 */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  text-align: center;
+  text-decoration: none;
+  /* white */
+
+  color: #ffffff;
+}
+
+#linkIcon {
+  position: absolute;
+  left: -38%;
+  right: 85.64%;
+  top: 14%;
+  bottom: 58.26%;
+}
+
+.firstcard {
+  position: absolute;
+  left: 3.88%;
+  right: 56.36%;
+  top: 51.35%;
+  bottom: 26.57%;
+
+  height: 177.94564819335938px;
+  width: 340px;
+
+  /* BG - 2 */
+
+  background: #191b20;
+  opacity: 0.8;
+  border-radius: 16px;
+}
+
+.moneyIcon {
+  position: absolute;
+  height: 24.134531021118164px;
+  width: 24.134531021118164px;
+  left: 20px;
+  top: 20px;
+}
+
+#fee {
+  position: absolute;
+  width: 247.41px;
+  height: 24px;
+  left: -15px;
+  top: 20.98px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  /* white */
+
+  color: #ffffff;
+}
+
+#ref_title {
+  position: absolute;
+  width: 215.49px;
+  height: 16px;
+  left: 14.92px;
+  top: 60.91px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+
+  /* text colour */
+
+  color: #808191;
+}
+
+.copybox {
+  position: absolute;
+  width: 297px;
+  height: 56px;
+  left: 20px;
+  right: 0px;
+  top: 100px;
+
+  /* for input boxes */
+
+  background: #242731;
+  mix-blend-mode: normal;
+  border-radius: 8px;
+}
+
+#reflink {
+  position: absolute;
+  width: 216.41px;
+  height: 24px;
+  left: 11px;
+  top: calc(50% - 24px / 2);
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  /* white */
+
+  color: #ffffff;
+}
+
+#copybtn {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 250px;
+  top: 20px;
+}
+
+.secondcard {
+  position: absolute;
+  left: 51.5%;
+  right: 31.2%;
+  top: 51.35%;
+  bottom: 26.57%;
+
+  height: 177.94564819335938px;
+  width: 340px;
+
+  /* BG - 2 */
+  background: #191b20;
+  opacity: 0.8;
+  border-radius: 16px;
+}
+
+.dataTable {
+  position: absolute;
+  width: 709px;
+  height: auto;
+  left: 21.51px;
+  top: 650.87px;
+  border: none;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+}
+
+#t1 {
+  position: absolute;
+  width: 76px;
+  height: 18px;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height, or 100% */
+
+  /* white */
+}
+
+.thead {
+  justify-content: center;
+  width: 710px;
+  height: 40px;
+  bottom: 50.35px;
+
+  /* BG - 2 */
+
+  background: #191b20;
+  mix-blend-mode: normal;
+  border-radius: 8px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  /* text colour */
+
+  color: #808191;
+}
+
+.tbody {
+  top: 200px;
+  /* width: 705.52px; */
+  height: 62.29px;
+
+  /* table */
+
+  background: rgba(36, 39, 49, 0.4);
+  border-radius: 5px;
+  color: #FFFFFF;
 }

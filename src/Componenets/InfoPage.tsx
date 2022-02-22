@@ -1,10 +1,13 @@
-import { IconButton, Tag, Text } from "@chakra-ui/react";
+import { Box, Flex, Grid, GridItem, IconButton, Spacer, Tag, Text, Wrap, WrapItem } from "@chakra-ui/react";
+import AssetTab from "./AssetTab";
+import ReferralCard from "./ReferralCard";
+import RewardSection from "./RewardSection";
 import Tutorial from "./Tutorial";
 
 const InfoPage: React.FC = () => {
     return (
         <div className="container">
-            <div className="sectionLine">
+            {/* <div className="sectionLine">
                 <h1>Section</h1>
                 <div className="line"></div>
             </div>
@@ -18,7 +21,11 @@ const InfoPage: React.FC = () => {
                 <Text id="txt">0.2 $Xyz</Text>
                 <Tag id="tier">Tier 1</Tag>
             </div>
-            <Tutorial/>
+            <Tutorial />
+            <RewardSection />
+            <Box className="firstcard">{<ReferralCard />}</Box>
+            <Box className="secondcard">{<ReferralCard />}</Box> */}
+        <AssetTab />
         </div>
     );
 }
