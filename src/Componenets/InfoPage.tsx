@@ -7,7 +7,7 @@ import Tutorial from "./Tutorial";
 const InfoPage: React.FC = () => {
     return (
         <div className="container">
-            {/* <div className="sectionLine">
+            <div className="sectionLine">
                 <h1>Section</h1>
                 <div className="line"></div>
             </div>
@@ -24,7 +24,7 @@ const InfoPage: React.FC = () => {
             <Tutorial />
             <RewardSection />
             <Box className="firstcard">{<ReferralCard />}</Box>
-            <Box className="secondcard">{<ReferralCard />}</Box> */}
+            <Box className="secondcard">{<ReferralCard />}</Box>
         <AssetTab />
         </div>
     );
