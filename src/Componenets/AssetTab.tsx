@@ -89,7 +89,7 @@ const AssetTab: React.FC = () => {
                       <Box className="amount">{element.amount} BNB</Box>
                       <Box className="state">{element.state}</Box>
                     </Center>
-                    <Center className="user" as="h6" h={'8'} w='40'>
+                    <Center whiteSpace={"nowrap"} display={"inline-block"} overflow={"hidden"} textOverflow={'ellipsis'} className="user" as="span" h={'8'} w='40'>
                         {element.user}
                     </Center>
                     <Center>
